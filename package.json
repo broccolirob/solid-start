@@ -16,7 +16,8 @@
     "chain": "hardhat node --network hardhat --no-deploy",
     "coverage": "hardhat coverage --network hardhat",
     "test": "hardhat test --network hardhat",
-    "test:gas": "cross-env REPORT_GAS=true hardhat test --network hardhat"
+    "test:gas": "cross-env REPORT_GAS=true hardhat test --network hardhat",
+    "seed": "hardhat run scripts/seed.js"
   },
   "dependencies": {
     "defender-relay-client": "^1.11.1",
