@@ -21,6 +21,7 @@ const {
   TENDERLY_PROJECT,
   TENDERLY_USERNAME,
   NETWORK,
+  COINMARKETCAP_KEY,
 } = process.env;
 
 module.exports = {
@@ -139,6 +140,7 @@ module.exports = {
   },
   gasReporter: {
     enabled: REPORT_GAS !== undefined,
+    coinmarketcap: COINMARKETCAP_KEY,
     currency: "USD",
   },
   etherscan: {
