@@ -19,6 +19,7 @@
     "test:gas": "cross-env REPORT_GAS=true hardhat test --network hardhat"
   },
   "dependencies": {
+    "defender-relay-client": "^1.11.1",
     "hardhat": "^2.6.3"
   },
   "devDependencies": {
