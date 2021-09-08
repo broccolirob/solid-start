@@ -53,66 +53,77 @@ module.exports = {
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 1,
     },
     ropsten: {
       url: `https://ropsten.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
-    },
-    kovan: {
-      url: `https://kovan.infura.io/v3/${INFURA_ID}`,
-      accounts: {
-        mnemonic: MNEMONIC,
-      },
+      chainId: 3,
     },
     rinkeby: {
       url: `https://rinkeby.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 4,
     },
     goerli: {
       url: `https://goerli.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 5,
+    },
+    kovan: {
+      url: `https://kovan.infura.io/v3/${INFURA_ID}`,
+      accounts: {
+        mnemonic: MNEMONIC,
+      },
+      chainId: 42,
     },
     polygonMainnet: {
       url: `https://polygon-mainnet.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 137,
     },
     polygonMumbai: {
       url: `https://polygon-mumbai.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 80001,
     },
     arbitrumMainnet: {
       url: `https://arbitrum-mainnet.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 42161,
     },
     arbitrumRinkeby: {
       url: `https://arbitrum-rinkeby.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 421611,
     },
     optimismMainnet: {
       url: `https://optimism-mainnet.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 10,
     },
     optimismKovan: {
       url: `https://optimism-kovan.infura.io/v3/${INFURA_ID}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
+      chainId: 69,
     },
   },
   namedAccounts: {
