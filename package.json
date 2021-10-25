@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Solidity Hardhat Starter Template",
   "main": "index.js",
-  "license": "gpl-3.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "deploy": "hardhat deploy",
