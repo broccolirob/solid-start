@@ -4,6 +4,7 @@ require("@tenderly/hardhat-tenderly");
 require("hardhat-gas-reporter");
 require("hardhat-deploy");
 require("solidity-coverage");
+require("hardhat-docgen");
 require("./tasks/accounts");
 require("./tasks/balance");
 require("./tasks/block-number");
@@ -149,6 +150,11 @@ module.exports = {
   tenderly: {
     project: TENDERLY_PROJECT,
     username: TENDERLY_USERNAME,
+  },
+  docgen: {
+    path: "./docs",
+    clear: true,
+    except: [],
   },
   mocha: {
     timeout: 100000,
