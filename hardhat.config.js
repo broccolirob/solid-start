@@ -15,8 +15,7 @@ require("dotenv").config();
 const {
   INFURA_ID,
   MNEMONIC,
-  ALCHEMY_KEY,
-  FORK_BLOCK,
+  ALCHEMY_MAINNET_FORK,
   ETHERSCAN_KEY,
   REPORT_GAS,
   TENDERLY_PROJECT,
@@ -43,8 +42,7 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_KEY}`,
-        blockNumber: parseInt(FORK_BLOCK),
+        url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_MAINNET_FORK}`,
       },
     },
     localhost: {
@@ -133,10 +131,25 @@ module.exports = {
       default: 0,
     },
     bob: {
-      default: 1,
+      default: 1, // generic participant 'a'
     },
     alice: {
-      default: 2,
+      default: 2, // generic participant 'b'
+    },
+    chad: {
+      default: 3, // generic participant 'c'
+    },
+    frank: {
+      default: 4, // generic participant 'd'
+    },
+    eve: {
+      default: 5, // passive attacker
+    },
+    mallory: {
+      default: 6, // malicious attacker
+    },
+    olivia: {
+      default: 7, // oracle
     },
   },
   gasReporter: {
