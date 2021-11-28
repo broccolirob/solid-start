@@ -946,15 +946,15 @@
     "@types/sinon-chai" "^3.2.3"
     "@types/web3" "1.0.19"
 
-"@openzeppelin/contracts-upgradeable@^4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.3.3.tgz#dfd8ac012fd7f53ece4b31b736fcab09565a2615"
-  integrity sha512-2ELsJkBQ0xirVQnx0utl3N+/iTPF+S0r3j0IVQIMG0HgAWreFXumY+yhGcwSV5JZ/yNNAXWR4mjIYRH/FEgu2Q==
+"@openzeppelin/contracts-upgradeable@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.4.0.tgz#85161d87c840c5bce2b6ed0c727b407e774852ae"
+  integrity sha512-hIEyWJHu7bDTv6ckxOaV+K3+7mVzhjtyvp3QSaz56Rk5PscXtPAbkiNTb3yz6UJCWHPWpxVyULVgZ6RubuFEZg==
 
-"@openzeppelin/contracts@^4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.3.3.tgz#ff6ee919fc2a1abaf72b22814bfb72ed129ec137"
-  integrity sha512-tDBopO1c98Yk7Cv/PZlHqrvtVjlgK5R4J6jxLwoO7qxK4xqOiZG+zSkIvGFpPZ0ikc3QOED3plgdqjgNTnBc7g==
+"@openzeppelin/contracts@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.4.0.tgz#4a1df71f736c31230bbbd634dfb006a756b51e6b"
+  integrity sha512-dlKiZmDvJnGRLHojrDoFZJmsQVeltVeoiRN7RK+cf2FmkhASDEblE0RiaYdxPNsUZa6mRG8393b9bfyp+V5IAw==
 
 "@remix-project/remixd@^0.5.3":
   version "0.5.3"
@@ -3716,47 +3716,47 @@ deep-is@^0.1.3, deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
   integrity sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==
 
-defender-admin-client@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/defender-admin-client/-/defender-admin-client-1.11.0.tgz#9d2684c597944e22c1d5a9136f71e68c832fa0c5"
-  integrity sha512-ojKNkYvpBs9NPTxQC5F/KbkZ8BIgQv3px20Ev268gLupx2cQqWgl2SOlmo/sacvO3ffXCaAZWgkR8ZtTp+j++w==
+defender-admin-client@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/defender-admin-client/-/defender-admin-client-1.12.1.tgz#8f201f4ef514b6615efad2f4c82a8016bb6b1c47"
+  integrity sha512-Pn8h2opimPMqOWq7MsP3LcX9ffFxt1oXvC5RrMg6ws+woXvilsraz0QohMjDBZBCMVxffmaCZyTiC3mASIccTQ==
   dependencies:
     axios "^0.19.2"
-    defender-base-client "1.10.0"
+    defender-base-client "^1.12.1"
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-defender-autotask-client@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/defender-autotask-client/-/defender-autotask-client-1.10.0.tgz#1945e88603a4619a0f1cf9f182cadc34de4cad7c"
-  integrity sha512-RuyBUEDuCqeyWj594VLY/wW0J+5MFoCRny39Kzx0oxbTRVZWKUeyfXs9ats4COcYVYha90lYktnrgZDcSqo74Q==
+defender-autotask-client@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/defender-autotask-client/-/defender-autotask-client-1.12.1.tgz#e437c5f085837dc523d0e5861646dd5b44a72e89"
+  integrity sha512-53qZgeXxjZhsqNquAjBKL9lt/B4bmXruCNFDpvIMf5LrxATKIsQivjnCUBv4LzRLSBJlVteFuiLAHQWkrYlcnA==
   dependencies:
     axios "^0.19.2"
-    defender-base-client "1.10.0"
+    defender-base-client "^1.12.1"
     dotenv "^10.0.0"
     glob "^7.1.6"
     jszip "^3.5.0"
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-defender-base-client@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/defender-base-client/-/defender-base-client-1.10.0.tgz#d85af9e84f57d6201e7741e44e59d5a3ff9c2b75"
-  integrity sha512-PvjJj4pWug/PVZWVi6jrdXGpykgtifGdomV1ePgZSj7cjK2mSbS0P3GUUeIzCA/d5HSV5/L6reZkI1KavnSdpA==
+defender-base-client@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/defender-base-client/-/defender-base-client-1.12.1.tgz#cc87b9913e6a40de2c3584b8707e8010f06a626a"
+  integrity sha512-DMLSCMz6LsCb8jWHhsULEPMLKSc48nYCtdAEa5dXj5YWzPTn9YprcXKbf5NwHqY0uy85j3AAis5ZG7L7+RqBYw==
   dependencies:
     amazon-cognito-identity-js "^4.3.3"
     axios "^0.19.2"
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-defender-relay-client@^1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/defender-relay-client/-/defender-relay-client-1.11.1.tgz#0ae73c1ca972f7fd082ab0c3a37301cf96a32b77"
-  integrity sha512-gz2CA45m5xho3p/nbKCVC/j07kbM/8hQajpEr+dl2YJbWRSFuxePkkd3TFKl0bya1MDZccHW8lbCQs47PQ+18w==
+defender-relay-client@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/defender-relay-client/-/defender-relay-client-1.12.1.tgz#45382f5215d7da7f14d99a2c852c467bf6dc43b5"
+  integrity sha512-zOml68K5uZNhikFcXrL2tNWHbgC0++yw9487XKt4iZXpMxKHZNHEyG1D7lFpC9+Ic6bXHLr10fES+AeYjZCHuQ==
   dependencies:
     amazon-cognito-identity-js "^4.3.3"
     axios "^0.19.2"
-    defender-base-client "1.10.0"
+    defender-base-client "^1.12.1"
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
@@ -5955,10 +5955,10 @@ har-validator@~5.1.3:
     ajv "^6.12.3"
     har-schema "^2.0.0"
 
-hardhat-deploy@^0.9.10:
-  version "0.9.10"
-  resolved "https://registry.yarnpkg.com/hardhat-deploy/-/hardhat-deploy-0.9.10.tgz#b2346421624dceba73dc51483ca4c4b25b17a4da"
-  integrity sha512-Cu9uwpnvfk+pFuspcie6PVxxV/DOIpNGyBuffKayBAtrKHqU/wkKqiw+q8iR5eND+F63JXFmLlt2v8SMea7odQ==
+hardhat-deploy@^0.9.12:
+  version "0.9.12"
+  resolved "https://registry.yarnpkg.com/hardhat-deploy/-/hardhat-deploy-0.9.12.tgz#860fc1ff41554422e9a56fe3f94fed6d92a8fa6d"
+  integrity sha512-qfOXYB2laNPkL2JHkpMUIXHa3xdmIY6Pf04SvHO0M/pEU8/i1Bji1BHdlaf5PMu9r9ab5ooaeNbu+qeRU6yGBA==
   dependencies:
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.1"
@@ -6004,10 +6004,10 @@ hardhat-gas-reporter@^1.0.4:
     eth-gas-reporter "^0.2.20"
     sha1 "^1.1.1"
 
-hardhat@^2.6.8:
-  version "2.6.8"
-  resolved "https://registry.yarnpkg.com/hardhat/-/hardhat-2.6.8.tgz#9ef6f8c16f9044acb95609d15a760b89177b8181"
-  integrity sha512-iRVd5DgcIVV3rNXMlogOfwlXAhHp7Wy/OjjFiUhTey8Unvo6oq5+Is5ANiKVN+Iw07Pcb/HpkGt7jCB6a4ITgg==
+hardhat@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/hardhat/-/hardhat-2.7.0.tgz#d8f01bc07bdd88ccaa00719ddb18618bc59a73b5"
+  integrity sha512-DqweY3KH5gwExoZ8EtsAfioj0Hk0NBXWXT3fMXWkiQNfyYBoZLrqdPNkbJ/E2LD4mZ+BKF7v/1chYR9ZCn2Z+g==
   dependencies:
     "@ethereumjs/block" "^3.4.0"
     "@ethereumjs/blockchain" "^5.4.0"
@@ -6054,7 +6054,7 @@ hardhat@^2.6.8:
     stacktrace-parser "^0.1.10"
     "true-case-path" "^2.2.1"
     tsort "0.0.1"
-    uuid "^3.3.2"
+    uuid "^8.3.2"
     ws "^7.4.6"
 
 has-ansi@^2.0.0:
@@ -8882,7 +8882,7 @@ prettier@^1.14.3:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
-"prettier@^1.18.2 || ^2.0.0", prettier@^2.4.1:
+"prettier@^1.18.2 || ^2.0.0":
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
@@ -8891,6 +8891,11 @@ prettier@^2.1.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.2.tgz#ef280a05ec253712e486233db5c6f23441e7342d"
   integrity sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==
+
+prettier@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
+  integrity sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==
 
 pretty-error@^2.0.2:
   version "2.1.2"
@@ -11109,6 +11114,11 @@ uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
