@@ -8,6 +8,7 @@
   "scripts": {
     "deploy": "hardhat deploy",
     "console": "hardhat console",
+    "compile": "hardhat compile",
     "clean": "hardhat clean && rimraf deployments",
     "etherscan": "hardhat etherscan-verify",
     "sourcify": "hardhat sourcify",
