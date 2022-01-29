@@ -1,14 +1,13 @@
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-waffle");
-require("@tenderly/hardhat-tenderly");
 require("hardhat-gas-reporter");
 require("hardhat-deploy");
+require("hardhat-deploy-tenderly");
 require("solidity-coverage");
 require("hardhat-docgen");
 require("./tasks/accounts");
 require("./tasks/balance");
 require("./tasks/block-number");
-require("./tasks/tenderly-verify");
 
 require("dotenv").config();
 
