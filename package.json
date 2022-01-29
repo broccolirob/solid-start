@@ -18,8 +18,8 @@
     "dev": "yarn deploy --watch --silent",
     "chain": "hardhat node --network hardhat --no-deploy",
     "coverage": "hardhat coverage --network hardhat",
-    "test": "hardhat test --network hardhat",
-    "test:gas": "cross-env REPORT_GAS=true hardhat test --network hardhat",
+    "test": "hardhat test --network hardhat --fork-block-number ADD_BLOCK_NUM",
+    "test:gas": "cross-env REPORT_GAS=true hardhat test --network hardhat --fork-block-number ADD_BLOCK_NUM",
     "seed": "hardhat run scripts/seed.js",
     "docs": "hardhat docgen"
   },

@@ -12,15 +12,24 @@ require("./tasks/block-number");
 require("dotenv").config();
 
 const {
-  INFURA_ID,
+  NETWORK,
   MNEMONIC,
-  ALCHEMY_MAINNET_FORK,
+  MAINNET_KEY,
+  RINKEBY_KEY,
+  GOERLI_KEY,
+  KOVAN_KEY,
+  ROPSTEN_KEY,
+  POLYGON_MAINNET_KEY,
+  POLYGON_MUMBAI_KEY,
+  ARBITRUM_MAINNET_KEY,
+  ARBITRUM_RINKEBY_KEY,
+  OPTIMISM_MAINNET_KEY,
+  OPTIMISM_KOVAN_KEY,
   ETHERSCAN_KEY,
+  COINMARKETCAP_KEY,
   REPORT_GAS,
   TENDERLY_PROJECT,
   TENDERLY_USERNAME,
-  NETWORK,
-  COINMARKETCAP_KEY,
 } = process.env;
 
 module.exports = {
@@ -41,84 +50,84 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_MAINNET_FORK}`,
+        url: `https://eth-mainnet.alchemyapi.io/v2/${MAINNET_KEY}`,
       },
     },
     localhost: {
       url: "http://localhost:8545",
     },
     mainnet: {
-      url: `https://mainnet.infura.io/v3/${INFURA_ID}`,
+      url: `https://eth-mainnet.alchemyapi.io/v2/${MAINNET_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 1,
     },
     ropsten: {
-      url: `https://ropsten.infura.io/v3/${INFURA_ID}`,
+      url: `https://eth-ropsten.alchemyapi.io/v2/${ROPSTEN_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 3,
     },
     rinkeby: {
-      url: `https://rinkeby.infura.io/v3/${INFURA_ID}`,
+      url: `https://eth-rinkeby.alchemyapi.io/v2/${RINKEBY_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 4,
     },
     goerli: {
-      url: `https://goerli.infura.io/v3/${INFURA_ID}`,
+      url: `https://eth-goerli.alchemyapi.io/v2/${GOERLI_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 5,
     },
     kovan: {
-      url: `https://kovan.infura.io/v3/${INFURA_ID}`,
+      url: `https://eth-kovan.alchemyapi.io/v2/${KOVAN_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 42,
     },
     polygonMainnet: {
-      url: `https://polygon-mainnet.infura.io/v3/${INFURA_ID}`,
+      url: `https://polygon-mainnet.g.alchemy.com/v2/${POLYGON_MAINNET_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 137,
     },
     polygonMumbai: {
-      url: `https://polygon-mumbai.infura.io/v3/${INFURA_ID}`,
+      url: `https://polygon-mumbai.g.alchemy.com/v2/${POLYGON_MUMBAI_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 80001,
     },
     arbitrumMainnet: {
-      url: `https://arbitrum-mainnet.infura.io/v3/${INFURA_ID}`,
+      url: `https://arb-mainnet.g.alchemy.com/v2/${ARBITRUM_MAINNET_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 42161,
     },
     arbitrumRinkeby: {
-      url: `https://arbitrum-rinkeby.infura.io/v3/${INFURA_ID}`,
+      url: `https://arb-rinkeby.g.alchemy.com/v2/${ARBITRUM_RINKEBY_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 421611,
     },
     optimismMainnet: {
-      url: `https://optimism-mainnet.infura.io/v3/${INFURA_ID}`,
+      url: `https://opt-mainnet.g.alchemy.com/v2/${OPTIMISM_MAINNET_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
       chainId: 10,
     },
     optimismKovan: {
-      url: `https://optimism-kovan.infura.io/v3/${INFURA_ID}`,
+      url: `https://opt-kovan.g.alchemy.com/v2/${OPTIMISM_KOVAN_KEY}`,
       accounts: {
         mnemonic: MNEMONIC,
       },
